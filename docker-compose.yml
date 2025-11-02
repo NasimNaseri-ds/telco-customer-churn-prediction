@@ -1,0 +1,15 @@
+services:
+  telco_customer_churn:
+    container_name: churn
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - "./data:/data"
+      - "./models:/models"
+      - "./jupyter_config:/root/.jupyter"
+      - "./notebooks:/tf/notebooks"
+    ports:
+      - "8888:8888"
+        
+         

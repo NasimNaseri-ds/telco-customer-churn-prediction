@@ -1,0 +1,34 @@
+# Core scientific and data handling
+numpy
+pandas
+
+# Data visualization
+matplotlib
+seaborn
+plotly
+
+# Machine Learning
+scikit-learn
+xgboost
+lightgbm
+catboost
+
+# Feature Engineering and Preprocessing
+category_encoders
+imbalanced-learn
+
+# Model Evaluation and Optimization
+optuna
+mlxtend
+
+# Utility and system tools
+tqdm
+joblib
+
+# Notebook environment
+jupyter
+ipykernel
+
+# Optional but useful
+scipy
+statsmodels
